@@ -1,0 +1,15 @@
+config_version=3
+
+[application]
+
+config/name="Neural Network"
+run/main_scene="res://Main.tscn"
+config/icon="res://icon.png"
+
+[autoload]
+
+global="*res://global.gd"
+
+[rendering]
+
+environment/default_environment="res://default_env.tres"
